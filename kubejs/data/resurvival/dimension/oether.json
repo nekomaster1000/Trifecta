@@ -7,9 +7,9 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:snowy_plains",
+          "biome": "resurvival:arctic_field",
           "parameters": {
-            "temperature": 0.3,
+            "temperature": 0,
             "humidity": -0.3,
             "continentalness": 0,
             "erosion": 0,
@@ -19,22 +19,10 @@
           }
         },
         {
-          "biome": "minecraft:snowy_taiga",
-          "parameters": {
-            "temperature": 0.35,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0.1,
-            "offset": 0.1875
-          }
-        },
-        {
           "biome": "atmospheric:kousa_jungle",
           "parameters": {
             "temperature": 0,
-            "humidity": 0.7,
+            "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -46,4 +34,3 @@
     }
   }
 }
-
