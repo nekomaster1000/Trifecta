@@ -110,7 +110,10 @@
 	  ]
 	},
 	"features": [
-	  [],
+	  [
+		"resurvival:permafrost_stalagtite",
+		"resurvival:shale_stalagtite"
+	  ],
 	  [],
 	  [],
 	  [
@@ -131,7 +134,8 @@
 		"minecraft:spring_water"
 	  ],
 	  [
-		"minecraft:glow_lichen"
+		"minecraft:glow_lichen",
+		"resurvival:snow_layers"
 	  ],
 	  [
 		"minecraft:freeze_top_layer"

@@ -240,10 +240,10 @@
           "type": "minecraft:vertical_gradient",
           "random_name": "quark:shale",
           "true_at_and_below": {
-            "absolute": 15
+            "absolute": 24
           },
           "false_at_and_above": {
-            "absolute": 28
+            "absolute": 30
           }
         },
         "then_run": {

@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"quark:shale",
+		"quark:permafrost",
+		"immersive_weathering:cryosol"
+	]
+}

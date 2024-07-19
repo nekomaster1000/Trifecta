@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:vegetation_patch",
+    "config": {
+      "surface": "floor",
+      "depth": 1,
+      "vertical_range": 12,
+      "extra_bottom_block_chance": 0,
+      "extra_edge_column_chance": 0,
+      "vegetation_chance": 0,
+      "xz_radius": 0,
+      "replaceable": "#minecraft:snow",
+      "ground_state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:snow"
+        }
+      },
+      "vegetation_feature": {
+        "feature": {
+          "type": "minecraft:block_pile",
+          "config": {
+            "state_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:snow"
+              }
+            }
+          }
+        },
+        "placement": []
+      }
+    }
+  }
