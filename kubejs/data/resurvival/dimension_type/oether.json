@@ -10,9 +10,9 @@
   "coordinate_scale": 1,
   "ambient_light": 0,
   "logical_height": 256,
-  "effects": "minecraft:overworld",
+  "effects": "minecraft:the_nether",
   "infiniburn": "#minecraft:infiniburn_overworld",
-  "min_y": 0,
+  "min_y": -64,
   "height": 256,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
