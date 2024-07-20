@@ -7,19 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "resurvival:arctic_field",
-          "parameters": {
-            "temperature": 0,
-            "humidity": -0.3,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "atmospheric:kousa_jungle",
+          "biome": "resurvival:oether",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -27,7 +15,7 @@
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.3475
+            "offset": 0
           }
         }
       ]

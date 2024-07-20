@@ -1,0 +1,19 @@
+{
+	"name": "resurvival:arctic_field",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "resurvival:arctic_field"
+				},
+				"matches_biomes": [
+					"resurvival:oether"
+				]
+			}
+		]
+	},
+	"selector": "resurvival:oether",
+	"weight": 24
+}
