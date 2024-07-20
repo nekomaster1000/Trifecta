@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "vertical_range": 4,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.3,
+    "vegetation_chance": 0,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 6
+      }
+    },
+    "replaceable": "#resurvival:stalagtite_replaceables",
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:ice"
+          }
+        }
+      ]
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:no_op",
+        "config": {}
+      },
+      "placement": []
+    }
+  }
+}

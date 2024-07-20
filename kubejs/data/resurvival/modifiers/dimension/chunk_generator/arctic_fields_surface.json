@@ -1,0 +1,68 @@
+{
+  "modifiers": [
+    {
+      "type": "surface_rule",
+      "config": {
+        "surface_rule": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "blueprint:modded_slice",
+            "slice_name": "resurvival:arctic_field"
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "resurvival:arctic_field"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "max_threshold": 0.2,
+                    "min_threshold": 0.05,
+                    "noise": "minecraft:surface"
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:stone_depth",
+                          "add_surface_depth": false,
+                          "offset": 0,
+                          "secondary_depth_range": 0,
+                          "surface_type": "floor"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:powder_snow"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "quark:permafrost"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "resurvival:oether"
+}

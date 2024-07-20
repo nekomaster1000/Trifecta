@@ -2,7 +2,6 @@
 	"temperature": -0.5,
 	"downfall": 0.5,
 	"precipitation": "snow",
-	"creature_spawn_probability": 0.07,
 	"effects": {
 		
 	  "sky_color": 5529451,
@@ -34,12 +33,6 @@
 	  "axolotls": [],
 	  "creature": [
 		{
-		  "type": "minecraft:rabbit",
-		  "weight": 10,
-		  "minCount": 2,
-		  "maxCount": 3
-		},
-		{
 		  "type": "minecraft:polar_bear",
 		  "weight": 3,
 		  "minCount": 1,
@@ -61,14 +54,8 @@
 		  "maxCount": 4
 		},
 		{
-		  "type": "minecraft:zombie_villager",
-		  "weight": 5,
-		  "minCount": 1,
-		  "maxCount": 1
-		},
-		{
 		  "type": "minecraft:creeper",
-		  "weight": 100,
+		  "weight": 80,
 		  "minCount": 4,
 		  "maxCount": 4
 		},
@@ -92,7 +79,7 @@
 		},
 		{
 		  "type": "minecraft:stray",
-		  "weight": 80,
+		  "weight": 100,
 		  "minCount": 1,
 		  "maxCount": 3
 		}
@@ -112,7 +99,8 @@
 	"features": [
 	  [
 		"resurvival:permafrost_stalagtite",
-		"resurvival:shale_stalagtite"
+		"resurvival:shale_stalagtite",
+		"resurvival:ice_patch"
 	  ],
 	  [],
 	  [],

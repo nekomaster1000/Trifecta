@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "immersive_weathering:cryosol",
+    "quark:shale",
+    "quark:permafrost"
+  ]
+}
