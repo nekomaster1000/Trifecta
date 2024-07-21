@@ -1,0 +1,13 @@
+{
+    "feature": "resurvival:glacial_delta",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 50
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

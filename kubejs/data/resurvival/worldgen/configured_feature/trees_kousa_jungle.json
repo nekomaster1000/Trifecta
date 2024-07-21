@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "atmospheric:kousa",
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "biomesoplenty:dead_twiglet_tree"
+      }
+    ]
+  }
+}
