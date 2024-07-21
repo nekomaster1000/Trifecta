@@ -3,6 +3,7 @@
 	"values": [
 		"quark:shale",
 		"quark:permafrost",
-		"immersive_weathering:cryosol"
+		"immersive_weathering:cryosol",
+		"minecraft:snow"
 	]
 }

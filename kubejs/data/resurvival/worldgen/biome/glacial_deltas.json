@@ -99,6 +99,8 @@
 	"features": [
 	  [
 		"resurvival:permafrost_stalagtite",
+		"resurvival:permafrost_stalagmite",
+		"resurvival:permafrost_stalagmite_lower",
 		"resurvival:shale_stalagtite",
 		"resurvival:ice_patch"
 	  ],
@@ -108,7 +110,9 @@
 		"minecraft:monster_room",
 		"minecraft:monster_room_deep"
 	  ],
-	  [],
+	  [
+		"resurvival:glacial_delta"
+	  ],
 	  [],
 	  [
 		"minecraft:ore_coal_upper",
@@ -124,8 +128,7 @@
 	  [
 		"minecraft:glow_lichen",
 		"resurvival:snow_layers",
-		"resurvival:patch_icy_iris",
-		"resurvival:trees_arctic_meadow"
+		"resurvival:patch_icy_iris"
 	  ],
 	  [
 		"minecraft:freeze_top_layer"

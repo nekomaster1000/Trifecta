@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "resurvival:arctic_field",
-    "resurvival:arctic_meadow"
+    "resurvival:arctic_meadow",
+    "resurvival:arctic_forest"
   ]
 }

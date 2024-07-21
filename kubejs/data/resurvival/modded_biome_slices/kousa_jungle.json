@@ -1,0 +1,19 @@
+{
+	"name": "resurvival:kousa_jungle",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "resurvival:kousa_jungle"
+				},
+				"matches_biomes": [
+					"resurvival:oether"
+				]
+			}
+		]
+	},
+	"selector": "resurvival:oether",
+	"weight": 8
+}
