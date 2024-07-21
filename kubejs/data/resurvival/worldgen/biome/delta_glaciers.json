@@ -114,16 +114,12 @@
 		"resurvival:glacial_delta"
 	  ],
 	  [],
-	  [
-		"minecraft:ore_coal_upper",
-		"minecraft:ore_coal_lower",
-		"minecraft:ore_iron_upper",
-		"minecraft:ore_iron_middle",
-		"minecraft:ore_iron_small"
-	  ],
+	  [],
 	  [],
 	  [
-		"minecraft:spring_water"
+		"minecraft:spring_water",
+        "resurvival:coal_ore",
+		"resurvival:iron_ore"
 	  ],
 	  [
 		"minecraft:glow_lichen",
