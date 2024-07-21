@@ -21,15 +21,21 @@
                 }
               },
               {
-                "weight": 15,
+                "weight": 18,
                 "data": {
                   "Name": "minecraft:air"
                 }
               },
               {
-                "weight": 5,
+                "weight": 2,
                 "data": {
                   "Name": "biomesoplenty:burning_blossom"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "atmospheric:kousa_sapling"
                 }
               }
             ]

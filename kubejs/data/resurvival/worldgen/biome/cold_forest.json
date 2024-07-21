@@ -3,8 +3,9 @@
 	"downfall": 0.5,
 	"precipitation": "snow",
 	"effects": {
-	  "sky_color": 5072499,
-	  "fog_color": 8957107,
+		
+	  "sky_color": 5529451,
+	  "fog_color": 9676456,
 	  "water_color": 4148708,
 	  "water_fog_color": 329011,
 	  "mood_sound": {
@@ -123,7 +124,8 @@
 	  [
 		"minecraft:glow_lichen",
 		"resurvival:snow_layers",
-		"resurvival:patch_icy_iris_large"
+		"resurvival:patch_icy_iris",
+		"resurvival:trees_cold_forest"
 	  ],
 	  [
 		"minecraft:freeze_top_layer"

@@ -1,12 +1,12 @@
 {
-	"name": "resurvival:arctic_meadow",
+	"name": "resurvival:cold_forest",
 	"provider": {
 		"type": "blueprint:overlay",
 		"overlays": [
 			{
 				"biome_source": {
 					"type": "minecraft:fixed",
-					"biome": "resurvival:arctic_meadow"
+					"biome": "resurvival:cold_forest"
 				},
 				"matches_biomes": [
 					"resurvival:oether"
@@ -15,5 +15,5 @@
 		]
 	},
 	"selector": "resurvival:oether",
-	"weight": 18
+	"weight": 19
 }

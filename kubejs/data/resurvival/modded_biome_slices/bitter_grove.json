@@ -1,12 +1,12 @@
 {
-	"name": "resurvival:glacial_deltas",
+	"name": "resurvival:bitter_grove",
 	"provider": {
 		"type": "blueprint:overlay",
 		"overlays": [
 			{
 				"biome_source": {
 					"type": "minecraft:fixed",
-					"biome": "resurvival:glacial_deltas"
+					"biome": "resurvival:bitter_grove"
 				},
 				"matches_biomes": [
 					"resurvival:oether"
@@ -15,5 +15,5 @@
 		]
 	},
 	"selector": "resurvival:oether",
-	"weight": 17
+	"weight": 18
 }

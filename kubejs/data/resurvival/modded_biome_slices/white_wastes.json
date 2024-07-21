@@ -1,12 +1,12 @@
 {
-	"name": "resurvival:glacial_meadow",
+	"name": "resurvival:white_wastes",
 	"provider": {
 		"type": "blueprint:overlay",
 		"overlays": [
 			{
 				"biome_source": {
 					"type": "minecraft:fixed",
-					"biome": "resurvival:glacial_meadow"
+					"biome": "resurvival:white_wastes"
 				},
 				"matches_biomes": [
 					"resurvival:oether"
@@ -15,5 +15,5 @@
 		]
 	},
 	"selector": "resurvival:oether",
-	"weight": 20
+	"weight": 10
 }

@@ -1,12 +1,12 @@
 {
-	"name": "resurvival:arctic_forest",
+	"name": "resurvival:arctic_wastes",
 	"provider": {
 		"type": "blueprint:overlay",
 		"overlays": [
 			{
 				"biome_source": {
 					"type": "minecraft:fixed",
-					"biome": "resurvival:arctic_forest"
+					"biome": "resurvival:arctic_wastes"
 				},
 				"matches_biomes": [
 					"resurvival:oether"
@@ -15,5 +15,5 @@
 		]
 	},
 	"selector": "resurvival:oether",
-	"weight": 19
+	"weight": 24
 }

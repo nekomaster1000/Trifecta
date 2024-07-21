@@ -1,8 +1,9 @@
 {
   "replace": false,
   "values": [
-    "resurvival:arctic_field",
-    "resurvival:arctic_meadow",
-    "resurvival:arctic_forest"
+    "resurvival:arctic_wastes",
+    "resurvival:bitter_grove",
+    "resurvival:cold_forest",
+    "resurvival:delta_glaciers"
   ]
 }

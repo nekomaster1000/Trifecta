@@ -1,12 +1,12 @@
 {
-	"name": "resurvival:arctic_field",
+	"name": "resurvival:delta_glaciers",
 	"provider": {
 		"type": "blueprint:overlay",
 		"overlays": [
 			{
 				"biome_source": {
 					"type": "minecraft:fixed",
-					"biome": "resurvival:arctic_field"
+					"biome": "resurvival:delta_glaciers"
 				},
 				"matches_biomes": [
 					"resurvival:oether"
@@ -15,5 +15,5 @@
 		]
 	},
 	"selector": "resurvival:oether",
-	"weight": 24
+	"weight": 17
 }

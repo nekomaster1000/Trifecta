@@ -4,7 +4,7 @@
     "default": "atmospheric:kousa",
     "features": [
       {
-        "chance": 0.3,
+        "chance": 0.03,
         "feature": "biomesoplenty:dead_twiglet_tree"
       }
     ]

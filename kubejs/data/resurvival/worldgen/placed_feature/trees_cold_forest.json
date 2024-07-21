@@ -1,5 +1,5 @@
 {
-  "feature": "resurvival:trees_arctic_forest",
+  "feature": "resurvival:trees_cold_forest",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,19 +7,19 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "weight": 2,
+            "weight": 20,
             "data": 1
           },
           {
-            "weight": 1,
+            "weight": 10,
             "data": 2
           },
           {
-            "weight": 3,
+            "weight": 30,
             "data": 4
           },
           {
-            "weight": 3,
+            "weight": 30,
             "data": 5
           }
         ]

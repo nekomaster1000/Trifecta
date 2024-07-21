@@ -4,8 +4,8 @@
 	"precipitation": "snow",
 	"effects": {
 		
-	  "sky_color": 5529451,
-	  "fog_color": 9676456,
+	  "sky_color": 13226719,
+	  "fog_color": 13226719,
 	  "water_color": 4148708,
 	  "water_fog_color": 329011,
 	  "mood_sound": {
@@ -18,7 +18,7 @@
 		"options": {
 		  "type": "minecraft:snowflake"
 		},
-		"probability": 0.0025
+		"probability": 0.1000
 	  }
 	},
 	"spawners": {
@@ -98,9 +98,6 @@
 	},
 	"features": [
 	  [
-		"resurvival:permafrost_stalagtite",
-		"resurvival:permafrost_stalagmite",
-		"resurvival:permafrost_stalagmite_lower",
 		"resurvival:shale_stalagtite",
 		"resurvival:ice_patch"
 	  ],
@@ -110,9 +107,7 @@
 		"minecraft:monster_room",
 		"minecraft:monster_room_deep"
 	  ],
-	  [
-		"resurvival:glacial_delta"
-	  ],
+	  [],
 	  [],
 	  [
 		"minecraft:ore_coal_upper",
@@ -127,8 +122,7 @@
 	  ],
 	  [
 		"minecraft:glow_lichen",
-		"resurvival:snow_layers",
-		"resurvival:patch_icy_iris"
+		"resurvival:snow_layers"
 	  ],
 	  [
 		"minecraft:freeze_top_layer"
