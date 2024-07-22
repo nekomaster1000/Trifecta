@@ -1,0 +1,97 @@
+[
+    {
+        "mob": "infernalexp:basalt_giant",
+        "mincount": 3,
+        "result": "deny"
+    },
+    {
+        "mob": "infernalexp:glowsilk_moth",
+        "mincount": 3,
+        "result": "deny"
+    },
+    {
+        "mob": "unusualprehistory:anuro",
+        "mincount": 16,
+        "result": "deny"
+    },
+    {
+        "mob": "unusualprehistory:austroraptor",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "unusualprehistory:smilodon",
+        "mincount": 2,
+        "result": "deny"
+    },
+    {
+        "mob": "unusualprehistory:mammoth",
+        "mincount": 3,
+        "result": "deny"
+    },
+
+    {
+        "mob": "unusualprehistory:anuro",
+        "dimension": "resurvival:oether",
+        "biome": [
+            "resurvival:bitter_meadow",
+            "resurvival:cold_forest"
+        ],
+        "result": "default"
+    },
+    {
+        "mob": "unusualprehistory:anuro",
+        "dimension": "resurvival:oether",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": "unusualprehistory:austroraptor",
+        "dimension": "resurvival:oether",
+        "biome": [
+            "resurvival:arctic_wastes",
+            "resurvival:iris_meadow",
+            "resurival:kousa_jungle",
+            "resurvival:white_wastes"
+        ],
+        "result": "default"
+    },
+    {
+        "mob": "unusualprehistory:austroraptor",
+        "dimension": "resurvival:oether",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": "unusualprehistory:smilodon",
+        "dimension": "resurvival:oether",
+        "biome": [
+            "resurvival:delta_glaciers"
+        ],
+        "result": "default"
+    },
+    {
+        "mob": "unusualprehistory:smilodon",
+        "dimension": "resurvival:oether",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": "unusualprehistory:mammoth",
+        "dimension": "resurvival:oether",
+        "biome": [
+            "resurvival:arctic_wastes",
+            "resurvival:white_wastes"
+        ],
+        "result": "default"
+    },
+    {
+        "mob": "unusualprehistory:mammoth",
+        "dimension": "resurvival:oether",
+        "incontrol": true,
+        "result": "deny"
+    }
+]

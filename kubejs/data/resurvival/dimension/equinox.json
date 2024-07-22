@@ -1,0 +1,24 @@
+{
+  "type": "resurvival:equinox",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "resurvival:equinox",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "resurvival:equinox",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

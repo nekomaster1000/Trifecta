@@ -1,0 +1,70 @@
+[
+    {
+      "mob": ["unusualprehistory:anuro"],
+      "persecond": 0.5,
+      "attempts": 21,
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "conditions": {
+        "dimension": "resurvival:oether",
+        "mindist": 25,
+        "maxdist": 100,
+        "minheight": 15,
+        "maxheight": 100,
+        "maxthis": 100
+      }
+    },
+    {
+        "mob": ["unusualprehistory:austroraptor"],
+        "persecond": 0.5,
+        "attempts": 25,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "resurvival:oether",
+          "mindist": 30,
+          "maxdist": 130,
+          "minheight": -40,
+          "maxheight": 100,
+          "maxthis": 100
+        }
+    },
+    {
+        "mob": ["unusualprehistory:smilodon"],
+        "persecond": 0.5,
+        "attempts": 21,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "resurvival:oether",
+          "mindist": 25,
+          "maxdist": 130,
+          "minheight": 40,
+          "maxheight": 100,
+          "maxthis": 100
+        }
+      },
+      {
+        "mob": ["unusualprehistory:mammoth"],
+        "persecond": 0.5,
+        "attempts": 21,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "resurvival:oether",
+          "mindist": 25,
+          "maxdist": 130,
+          "minheight": 60,
+          "maxheight": 100,
+          "maxthis": 100
+        }
+      }
+  ]

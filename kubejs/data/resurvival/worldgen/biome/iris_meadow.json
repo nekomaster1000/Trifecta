@@ -30,61 +30,11 @@
 		}
 	  ],
 	  "axolotls": [],
-	  "creature": [
-		{
-		  "type": "minecraft:polar_bear",
-		  "weight": 6,
-		  "minCount": 1,
-		  "maxCount": 2
-		},
-		{
-			"type": "shineals_prehistoric_expansion:mammoth",
-   			"weight": 12,
-    		"minCount": 1,
-    		"maxCount": 4
-		  }
-	  ],
 	  "misc": [],
 	  "monster": [
 		{
-		  "type": "minecraft:spider",
-		  "weight": 100,
-		  "minCount": 4,
-		  "maxCount": 4
-		},
-		{
-		  "type": "minecraft:zombie",
-		  "weight": 95,
-		  "minCount": 4,
-		  "maxCount": 4
-		},
-		{
-		  "type": "minecraft:creeper",
-		  "weight": 80,
-		  "minCount": 4,
-		  "maxCount": 4
-		},
-		{
-		  "type": "minecraft:slime",
-		  "weight": 100,
-		  "minCount": 4,
-		  "maxCount": 4
-		},
-		{
-		  "type": "minecraft:enderman",
-		  "weight": 10,
-		  "minCount": 1,
-		  "maxCount": 4
-		},
-		{
-		  "type": "minecraft:witch",
-		  "weight": 5,
-		  "minCount": 1,
-		  "maxCount": 1
-		},
-		{
 		  "type": "minecraft:stray",
-		  "weight": 100,
+		  "weight": 10,
 		  "minCount": 1,
 		  "maxCount": 3
 		}
@@ -115,12 +65,16 @@
 	  ],
 	  [],
 	  [],
-	  [],
+	  [
+		"minecraft:ore_coal_upper",
+		"minecraft:ore_coal_lower",
+		"minecraft:ore_iron_upper",
+		"minecraft:ore_iron_middle",
+		"minecraft:ore_iron_small"
+	  ],
 	  [],
 	  [
-		"minecraft:spring_water",
-        "resurvival:coal_ore",
-		"resurvival:iron_ore"
+		"minecraft:spring_water"
 	  ],
 	  [
 		"minecraft:glow_lichen",
