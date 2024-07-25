@@ -4,8 +4,8 @@
 	"precipitation": "snow",
 	"effects": {
 		
-	  "sky_color": 6779779,
-	  "fog_color": 6779779,
+	  "sky_color": 10595254,
+	  "fog_color": 10595254,
 	  "water_color": 4148708,
 	  "water_fog_color": 329011,
 	  "mood_sound": {
@@ -18,7 +18,7 @@
 		"options": {
 		  "type": "minecraft:snowflake"
 		},
-		"probability": 0.0125
+		"probability": 0.015
 	  }
 	},
 	"spawners": {
@@ -78,10 +78,7 @@
 		"minecraft:spring_water"
 	  ],
 	  [
-		"minecraft:glow_lichen",
-		"resurvival:snow_layers",
-		"resurvival:patch_icy_iris_small",
-		"resurvival:berry_bushes"
+		"minecraft:glow_lichen"
 	  ],
 	  [
 		"minecraft:freeze_top_layer"

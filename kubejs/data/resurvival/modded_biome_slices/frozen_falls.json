@@ -1,0 +1,23 @@
+{
+	"name": "resurvival:frozen_falls",
+	"provider": {
+		"type": "blueprint:multi_noise",
+		"biomes": [
+			{
+				"biome": "resurvival:frozen_falls",
+				"parameters": {
+					"continentalness": 0.9,
+					"depth": 0.9,
+					"erosion": 0.9,
+					"humidity": -0.9,
+					"offset": 0.9,
+					"temperature": -0.9,
+					"weirdness": 0.9
+				}
+			}
+		],
+		"only_map_from_areas": true
+	},
+	"selector": "resurvival:oether",
+	"weight": 14
+}
