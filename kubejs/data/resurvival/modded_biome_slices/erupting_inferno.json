@@ -1,0 +1,19 @@
+{
+	"name": "biomesoplenty:erupting_inferno",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "biomesoplenty:erupting_inferno"
+				},
+				"matches_biomes": [
+					"resurvival:equinox"
+				]
+			}
+		]
+	},
+	"selector": "resurvival:equinox",
+	"weight": 25
+}

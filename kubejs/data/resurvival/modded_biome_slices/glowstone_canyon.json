@@ -1,0 +1,19 @@
+{
+	"name": "infernalexp:glowstone_canyon",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "infernalexp:glowstone_canyon"
+				},
+				"matches_biomes": [
+					"resurvival:equinox"
+				]
+			}
+		]
+	},
+	"selector": "resurvival:equinox",
+	"weight": 25
+}

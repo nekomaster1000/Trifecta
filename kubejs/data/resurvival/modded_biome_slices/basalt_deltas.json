@@ -1,0 +1,19 @@
+{
+	"name": "minecraft:basalt_deltas",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "minecraft:basalt_deltas"
+				},
+				"matches_biomes": [
+					"resurvival:equinox"
+				]
+			}
+		]
+	},
+	"selector": "resurvival:equinox",
+	"weight": 15
+}
