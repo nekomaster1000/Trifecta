@@ -13,8 +13,8 @@
   "noise": {
     "min_y": -32,
     "height": 144,
-    "size_horizontal": 2,
-    "size_vertical": 1
+    "size_horizontal": 1,
+    "size_vertical": 2
   },
   "noise_router": {
     "barrier": 0,
@@ -114,6 +114,56 @@
         "type": "minecraft:block",
         "result_state": {
           "Name": "minecraft:netherrack"
+        }
+      }
+    ]
+  },
+  "biome_source": {
+    "type": "minecraft:multi_noise",
+    "preset": "minecraft:nether",
+    "biomes": [
+      {
+        "biome": "infernalexp:glowstone_canyon",
+        "parameters": {
+          "temperature": 0.5,
+          "humidity": 0.5,
+          "altitude": 0.5,
+          "weirdness": 0.5,
+          "erosion": 0.2,
+          "offset": 0.0
+        }
+      },
+      {
+        "biome": "biomesoplenty:withered_abyss",
+        "parameters": {
+          "temperature": 0.5,
+          "humidity": 0.5,
+          "altitude": 0.5,
+          "weirdness": 0.5,
+          "erosion": 0.4,
+          "offset": 0.0
+        }
+      },
+      {
+        "biome": "minecraft:basalt_deltas",
+        "parameters": {
+          "temperature": 0.5,
+          "humidity": 0.5,
+          "altitude": 0.5,
+          "weirdness": 0.5,
+          "erosion": 0.6,
+          "offset": 0.0
+        }
+      },
+      {
+        "biome": "infernalexp:erupting_inferno",
+        "parameters": {
+          "temperature": 0.5,
+          "humidity": 0.5,
+          "altitude": 0.5,
+          "weirdness": 0.5,
+          "erosion": 0.6,
+          "offset": 0.0
         }
       }
     ]
