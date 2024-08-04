@@ -1,0 +1,17 @@
+{
+    "target": "minecraft:villager",
+    "events": {
+        "on_attacked": [{
+            "target": "entity",
+            "health_left": 1.0,
+            "function": "resurvival:owlager_hurt",
+            "potion_effects": [
+                {
+                    "id": "minecraft:slow_falling",
+                    "amplifier": 5,
+                    "duration": 10
+                }
+            ]
+        }]
+    }
+}
