@@ -1,0 +1,36 @@
+{
+  "ambient.oether": {
+    "sounds": [
+      {
+        "name": "resurvival:ambient/oether/oether_1",
+        "volume": 0.75,
+        "weight": 10
+      },
+      {
+        "name": "resurvival:ambient/oether/oether_1",
+        "volume": 0.75,
+        "weight": 10
+      },
+      {
+        "name": "resurvival:ambient/oether/oether_3",
+        "volume": 0.75,
+        "weight": 10
+      },
+      {
+        "name": "resurvival:ambient/oether/oether_4",
+        "volume": 0.75,
+        "weight": 10
+      },
+      {
+        "name": "resurvival:ambient/oether/oether_5",
+        "volume": 0.75,
+        "weight": 10
+      },
+      {
+        "name": "resurvival:ambient/oether/oether_6",
+        "volume": 0.75,
+        "weight": 10
+      }
+    ]
+    }
+}

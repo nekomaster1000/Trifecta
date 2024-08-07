@@ -3,17 +3,11 @@
 	"downfall": 0.5,
 	"precipitation": "snow",
 	"effects": {
-		
+		"ambient_sound": "resurvival:ambient.oether",
 	  "sky_color": 13226719,
 	  "fog_color": 13226719,
 	  "water_color": 4148708,
 	  "water_fog_color": 329011,
-	  "mood_sound": {
-		"sound": "minecraft:ambient.cave",
-		"tick_delay": 6000,
-		"block_search_extent": 8,
-		"offset": 2
-	  },
 	  "particle": {
 		"options": {
 		  "type": "minecraft:snowflake"
