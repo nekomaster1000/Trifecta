@@ -1,0 +1,19 @@
+{
+	"name": "biomesoplenty:fungal_jungle",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "biomesoplenty:fungal_jungle"
+				},
+				"matches_biomes": [
+					"minecraft:plains"
+				]
+			}
+		]
+	},
+	"selector": "resurvival:alio",
+	"weight": 10
+}

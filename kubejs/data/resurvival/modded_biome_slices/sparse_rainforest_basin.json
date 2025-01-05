@@ -1,0 +1,19 @@
+{
+	"name": "atmospheric:sparse_rainforest_basin",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "atmospheric:sparse_rainforest_basin"
+				},
+				"matches_biomes": [
+					"minecraft:plains"
+				]
+			}
+		]
+	},
+	"selector": "resurvival:alio",
+	"weight": 10
+}
