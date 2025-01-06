@@ -88,11 +88,7 @@
       "minecraft:seagrass_deep_warm",
       "atmospheric:patch_waterlily_rainforest_basin",
       "atmospheric:trees_sparse_rainforest_basin",
-      "atmospheric:patch_water_hyacinth_sparse",
-      "minecraft:sea_pickle",
-      "minecraft:warm_ocean_vegetation",
-      "minecraft:seagrass_warm",
-      "minecraft:kelp_warm"
+      "atmospheric:patch_water_hyacinth_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

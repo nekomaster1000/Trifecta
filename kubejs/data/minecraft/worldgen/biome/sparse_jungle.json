@@ -85,11 +85,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:vines",
-      "minecraft:patch_melon_sparse",
-      "minecraft:sea_pickle",
-      "minecraft:warm_ocean_vegetation",
-      "minecraft:seagrass_warm",
-      "minecraft:kelp_warm"
+      "minecraft:patch_melon_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -89,11 +89,7 @@
       "biomesoplenty:mycelium_splatter",
       "biomesoplenty:patch_sprouts_5",
       "biomesoplenty:patch_grass_12",
-      "biomesoplenty:patch_tall_grass_12",
-      "minecraft:sea_pickle",
-      "minecraft:warm_ocean_vegetation",
-      "minecraft:seagrass_warm",
-      "minecraft:kelp_warm"
+      "biomesoplenty:patch_tall_grass_12"
     ],
     [
       "minecraft:freeze_top_layer"

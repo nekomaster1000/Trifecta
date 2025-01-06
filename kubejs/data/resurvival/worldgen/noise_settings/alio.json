@@ -1344,7 +1344,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:warm_ocean",
+                                  "minecraft:",
                                   "minecraft:beach",
                                   "minecraft:snowy_beach"
                                 ]
@@ -2120,7 +2120,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:warm_ocean",
+                                  "minecraft:",
                                   "minecraft:beach",
                                   "minecraft:snowy_beach"
                                 ]
@@ -2366,7 +2366,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "minecraft:warm_ocean",
+                        "minecraft:",
                         "minecraft:beach",
                         "minecraft:snowy_beach"
                       ]
@@ -2449,9 +2449,9 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "minecraft:warm_ocean",
-                        "minecraft:lukewarm_ocean",
-                        "minecraft:deep_lukewarm_ocean"
+                        "minecraft:",
+                        "minecraft:luke",
+                        "minecraft:deep_luke"
                       ]
                     },
                     "then_run": {

@@ -93,11 +93,7 @@
       "biomesoplenty:huge_glowshroom_cave",
       "biomesoplenty:medium_glowshroom_cave",
       "biomesoplenty:small_glowshroom_cave",
-      "biomesoplenty:extra_glow_lichen",
-      "minecraft:sea_pickle",
-      "minecraft:warm_ocean_vegetation",
-      "minecraft:seagrass_warm",
-      "minecraft:kelp_warm"
+      "biomesoplenty:extra_glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"
