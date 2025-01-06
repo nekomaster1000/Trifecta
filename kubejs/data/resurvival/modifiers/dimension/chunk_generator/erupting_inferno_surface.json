@@ -33,7 +33,7 @@
               {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "infernalexp:dullstone"
+                  "Name": "atmospheric:peach_travertine"
                 }
               }
             ]
